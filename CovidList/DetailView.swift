@@ -8,17 +8,9 @@
 import SwiftUI
 
 struct DetailView: View {
-    var fruit: Fruit
-//    var covidData: CovidModel
+    var covidData: CovidModel
     
     var body: some View {
-        Text(fruit.name)
-//        Text(covidData.state)
+        Text(covidData.state)
     }
 }
-
-//struct DetailView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        DetailView(fruit: Fruit)
-//    }
-//}
