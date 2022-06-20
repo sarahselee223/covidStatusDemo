@@ -7,18 +7,6 @@
 
 import Foundation
 
-struct CovidModel: Codable, Hashable {
-    var state: String
-    var population: Int
-//    var metris:
-//    var ristLevel: Int //
-//    var actualCase: Int
-//    var death: Int
-//    var infectionRate: Int
-//    var riskLevel: Int
-    
-}
-
 class ViewModel: ObservableObject {
     @Published var covidData = [CovidModel]()
     

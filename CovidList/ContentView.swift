@@ -22,6 +22,11 @@ struct ContentView: View {
                 viewModel.fetch()
             }
             .navigationTitle("Covid Data by State")
+            .toolbar {
+                ToolbarItem(placement: .navigation) {
+                    Text("as of 6/20/22")
+                }
+            }
             .navigationDestination(for: CovidModel.self) { data in
                 DetailView(covidData: data)
             }

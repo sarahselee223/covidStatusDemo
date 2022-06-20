@@ -15,7 +15,8 @@
 		265B6235285FD72700AE43C4 /* CovidListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265B6234285FD72700AE43C4 /* CovidListUITests.swift */; };
 		265B6237285FD72700AE43C4 /* CovidListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265B6236285FD72700AE43C4 /* CovidListUITestsLaunchTests.swift */; };
 		265B6248285FDF6700AE43C4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265B6247285FDF6700AE43C4 /* DetailView.swift */; };
-		265B624A285FE7BA00AE43C4 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265B6249285FE7BA00AE43C4 /* DataManager.swift */; };
+		265B624A285FE7BA00AE43C4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265B6249285FE7BA00AE43C4 /* ViewModel.swift */; };
+		265B624C28610B2D00AE43C4 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265B624B28610B2D00AE43C4 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +48,8 @@
 		265B6234285FD72700AE43C4 /* CovidListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidListUITests.swift; sourceTree = "<group>"; };
 		265B6236285FD72700AE43C4 /* CovidListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		265B6247285FDF6700AE43C4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		265B6249285FE7BA00AE43C4 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		265B6249285FE7BA00AE43C4 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		265B624B28610B2D00AE43C4 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +103,8 @@
 				265B6219285FD72400AE43C4 /* CovidListApp.swift */,
 				265B621B285FD72400AE43C4 /* ContentView.swift */,
 				265B6247285FDF6700AE43C4 /* DetailView.swift */,
-				265B6249285FE7BA00AE43C4 /* DataManager.swift */,
+				265B6249285FE7BA00AE43C4 /* ViewModel.swift */,
+				265B624B28610B2D00AE43C4 /* DataModel.swift */,
 				265B621D285FD72600AE43C4 /* Assets.xcassets */,
 				265B621F285FD72600AE43C4 /* Preview Content */,
 			);
@@ -263,8 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				265B624C28610B2D00AE43C4 /* DataModel.swift in Sources */,
 				265B621C285FD72400AE43C4 /* ContentView.swift in Sources */,
-				265B624A285FE7BA00AE43C4 /* DataManager.swift in Sources */,
+				265B624A285FE7BA00AE43C4 /* ViewModel.swift in Sources */,
 				265B6248285FDF6700AE43C4 /* DetailView.swift in Sources */,
 				265B621A285FD72400AE43C4 /* CovidListApp.swift in Sources */,
 			);
