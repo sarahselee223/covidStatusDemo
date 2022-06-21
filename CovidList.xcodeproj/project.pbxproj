@@ -17,6 +17,7 @@
 		265B6248285FDF6700AE43C4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265B6247285FDF6700AE43C4 /* DetailView.swift */; };
 		265B624A285FE7BA00AE43C4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265B6249285FE7BA00AE43C4 /* ViewModel.swift */; };
 		265B624C28610B2D00AE43C4 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265B624B28610B2D00AE43C4 /* DataModel.swift */; };
+		265B624E28617D4D00AE43C4 /* USStatesMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265B624D28617D4D00AE43C4 /* USStatesMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		265B6247285FDF6700AE43C4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		265B6249285FE7BA00AE43C4 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		265B624B28610B2D00AE43C4 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		265B624D28617D4D00AE43C4 /* USStatesMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USStatesMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				265B624B28610B2D00AE43C4 /* DataModel.swift */,
 				265B621D285FD72600AE43C4 /* Assets.xcassets */,
 				265B621F285FD72600AE43C4 /* Preview Content */,
+				265B624D28617D4D00AE43C4 /* USStatesMap.swift */,
 			);
 			path = CovidList;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			files = (
 				265B624C28610B2D00AE43C4 /* DataModel.swift in Sources */,
 				265B621C285FD72400AE43C4 /* ContentView.swift in Sources */,
+				265B624E28617D4D00AE43C4 /* USStatesMap.swift in Sources */,
 				265B624A285FE7BA00AE43C4 /* ViewModel.swift in Sources */,
 				265B6248285FDF6700AE43C4 /* DetailView.swift in Sources */,
 				265B621A285FD72400AE43C4 /* CovidListApp.swift in Sources */,
